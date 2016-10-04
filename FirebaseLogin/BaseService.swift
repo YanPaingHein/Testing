@@ -21,4 +21,5 @@ var CURRENT_USER: Firebase
     let currentUser = Firebase(url: "\(FIREBASE_REF)").childByAppendingPath("users").childByAppendingPath(userID)
     
     return currentUser!
+    //123456
 }
